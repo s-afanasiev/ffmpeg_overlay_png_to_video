@@ -1,0 +1,5 @@
+1) Предполагается, что вы будете использовать файл "overlay_png_to_video.js", импортируя его из другого файла через "require", как это показано на примере в файле EXAMPLE.js.
+1) You are supposed to use the file "overlay_png_to_video.js" by importing it from another file via "require", as shown by the example in EXAMPLE.js.
+
+2) Файлы "list0.txt", "list1.txt", ... , "list_n.txt", которые будут появляться в корневой директории, создаются автоматически программой ffpmeg. Если вы хотите передавать список PNG-файлов с помощью текстового файла, тогда положите этот файл куда-нибудь в другую директорию, отличную от корневой, например в директорию "from_txt". Такой приём также показан в примере "EXAMPLE.js"
+2) The files "list0.txt", "list1.txt", ... , "list_n.txt", which will appear in the root directory, are created automatically by ffpmeg. If you want to pass the list of PNG files using a text file, then put that file somewhere other than in the root directory, for example in the directory "from_txt". This method is also shown in the "EXAMPLE.js" example
